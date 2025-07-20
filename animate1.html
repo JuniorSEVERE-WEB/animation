@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes zoomIn
+        {
+            from
+            {
+                font-size: 10px;
+            }
+            to 
+            {
+                font-size: 20px;
+            }
+        }
+        h1 
+        {
+            animation-name: zoomIn;
+            animation-duration: 2s;
+            animation-fill-mode: none;
+        }
+        @keyframes fadeIn
+        {
+            from
+            {
+                font-size: 10px;
+            }
+            to 
+            {
+                font-size: 20px;
+            }
+        }
+
+        #ani1 
+        {
+            animation-name: fadeIn;
+            animation-duration: 2s;
+            animation-fill-mode: backwards;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Welcome</h1>
+    <p id="ani1">Animation1</p>
+</body>
+</html>
